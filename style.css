@@ -1,0 +1,173 @@
+:root {
+    --cor1: #CAE5FF;
+    --cor2: #ACEDFF;
+    --cor3: #89BBFE;
+    --cor4: #6F8AB7;
+    --cor5: #615D6C;
+    --cor6: #272727;
+}
+
+.linha {
+    width: 70%;
+    justify-self: center;
+    position: relative;
+    margin: 1em 0;
+    color: var(--cor3);
+    border-bottom: 1px solid var(--cor5);
+    box-shadow: 1px 1px 3px var(--cor4);
+}
+
+span{
+    color: var(--cor1);
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: var(--cor6);
+    width: 100%;
+    box-shadow: 3px 3px 4px var(--cor5);
+}
+
+header .header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    margin: 0 5%;
+}
+
+header .header-box .header-main{
+    font-family: 'Righteous', cursive;
+    font-size: 120%;
+}
+
+header .header-box .header-pointers ul{
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+
+header .header-box .header-pointers ul li a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: var(--cor1);
+    border-bottom:0 var(--cor1);
+    transition: 1s linear;
+}
+
+
+header .header-box .header-pointers ul li a:hover{
+    border-bottom: 1px solid var(--cor4);
+}
+
+main section#start-page {
+    margin: 6em 5% 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main section#start-page .start-page-grid{
+    display: grid;
+    margin: 1em 0;
+}
+
+main section#start-page .start-page-grid h4{
+    text-align: center;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+main section#start-page #about{
+    text-align: center;
+}
+
+main section#start-page .start-page-grid .img1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+main section#start-page .start-page-grid .img1 img{
+    width: 40%;
+    box-shadow: 7px 7px 12px gray;
+    margin: 0 1em;
+}
+
+main section#start-page .start-page-grid .img2{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+main section#start-page .start-page-grid .img2 img{
+    width: 40%;
+    box-shadow: 7px 7px 12px gray;
+    margin: 0 1em;
+}
+
+main section#paints-show .show-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section#paints-show .show-grid .linha {
+    width: 50%;
+}
+
+main section#paints-show .show-grid h4{
+    font-family: 'Righteous', cursive;
+}
+
+main section#paints-show .show-grid img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main section#contact{
+    bottom: 0;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section#contact .list{
+    margin: 1em 0 0 0;
+    list-style:  none;
+}
+
+main section#contact .list a{
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: inherit;
+    text-indent: -11em;
+}
+
+main section#contact .list i{
+    color: white;
+    border-radius: 1em;
+    font-size: 2em;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+main section#contact .animated {
+    width: 50%;
+}
